@@ -13,7 +13,7 @@ public class MatrixAddition {
         for (int i = 0; i< N; i++) {
             for (int j = 0; j < N; j++) {
                 matrix2[i][j] = scanner.nextInt();}}
-	int[][] sumMatrix = new int[N][N]; //Create new matrix to store the sum                 	
+	int[][] sumMatrix = new int[N][N];                 	
 for (int i = 0; i< N; i++) {
             for (int j = 0; j < N; j++) {
 		sumMatrix[i][j] = matrix1[i][j] + matrix2[i][j]; }    }
